@@ -1,0 +1,59 @@
+
+ADMIN@AshishLaptop MINGW64 ~
+$ cd "C:\Users\ADMIN\Desktop\TE VCET\Semester 5\ASD_and_DO_Agile_Software_Development_and_DevOps\Practical Examination\Exp 6"
+
+ADMIN@AshishLaptop MINGW64 ~/Desktop/TE VCET/Semester 5/ASD_and_DO_Agile_Software_Development_and_DevOps/Practical Examination/Exp 6
+$ git clone "https://github.com/AshishP-21108/Final_Lab.git"
+Cloning into 'Final_Lab'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+ADMIN@AshishLaptop MINGW64 ~/Desktop/TE VCET/Semester 5/ASD_and_DO_Agile_Software_Development_and_DevOps/Practical Examination/Exp 6
+$ cd Final_Lab
+
+ADMIN@AshishLaptop MINGW64 ~/Desktop/TE VCET/Semester 5/ASD_and_DO_Agile_Software_Development_and_DevOps/Practical Examination/Exp 6/Final_Lab (main)
+$ git remote -v
+origin  https://github.com/AshishP-21108/Final_Lab.git (fetch)
+origin  https://github.com/AshishP-21108/Final_Lab.git (push)
+
+ADMIN@AshishLaptop MINGW64 ~/Desktop/TE VCET/Semester 5/ASD_and_DO_Agile_Software_Development_and_DevOps/Practical Examination/Exp 6/Final_Lab (main)
+$ echo "Updated Lab notes for Exp 6" >> README.md
+
+ADMIN@AshishLaptop MINGW64 ~/Desktop/TE VCET/Semester 5/ASD_and_DO_Agile_Software_Development_and_DevOps/Practical Examination/Exp 6/Final_Lab (main)
+$ git add README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+ADMIN@AshishLaptop MINGW64 ~/Desktop/TE VCET/Semester 5/ASD_and_DO_Agile_Software_Development_and_DevOps/Practical Examination/Exp 6/Final_Lab (main)
+$ git commit -m "Add updated lab notes for Exp 6"
+[main d50c582] Add updated lab notes for Exp 6
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+ADMIN@AshishLaptop MINGW64 ~/Desktop/TE VCET/Semester 5/ASD_and_DO_Agile_Software_Development_and_DevOps/Practical Examination/Exp 6/Final_Lab (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 329 bytes | 109.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/AshishP-21108/Final_Lab.git
+   eed8dcc..d50c582  main -> main
+
+ADMIN@AshishLaptop MINGW64 ~/Desktop/TE VCET/Semester 5/ASD_and_DO_Agile_Software_Development_and_DevOps/Practical Examination/Exp 6/Final_Lab (main)
+$ git fetch origin
+
+ADMIN@AshishLaptop MINGW64 ~/Desktop/TE VCET/Semester 5/ASD_and_DO_Agile_Software_Development_and_DevOps/Practical Examination/Exp 6/Final_Lab (main)
+$ git merge origin/main
+Already up to date.
+
+ADMIN@AshishLaptop MINGW64 ~/Desktop/TE VCET/Semester 5/ASD_and_DO_Agile_Software_Development_and_DevOps/Practical Examination/Exp 6/Final_Lab (main)
+$ git pull origin main
+From https://github.com/AshishP-21108/Final_Lab
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+ADMIN@AshishLaptop MINGW64 ~/Desktop/TE VCET/Semester 5/ASD_and_DO_Agile_Software_Development_and_DevOps/Practical Examination/Exp 6/Final_Lab (main)
+$
